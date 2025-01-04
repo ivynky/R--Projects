@@ -1,9 +1,10 @@
-# Bank-Marketing Study
+# Effectiveness of Portuguese Bank Marketing
+
 ## Introduction:
 This study investigates the effectiveness of a Portuguese bank's marketing efforts in predicting the likelihood of a client opening a deposit account. Utilizing logistic regression, we aim to discern the pivotal factors influencing the decision to open an account.
 
 ## Data Description:
-Our dataset comprises 25,000 observations of the bank's clients, encompassing variables such as whether they opened a deposit account (categorical: no, yes), age (numeric: in years), credit default status (categorical: no, yes), housing loan status (categorical: no, yes), personal loan status (categorical: no, yes), and the duration of phone calls (numeric: in seconds). Notably, our dataset is complete, with no missing data.
+The dataset comprises 25,000 observations of the bank's clients, encompassing variables such as whether they opened a deposit account (categorical: no, yes), age (numeric: in years), credit default status (categorical: no, yes), housing loan status (categorical: no, yes), personal loan status (categorical: no, yes), and the duration of phone calls (numeric: in seconds). Notably, our dataset is complete, with no missing data.
 
 ## Variable Selection:
 Initially, a logistic regression model was developed using all independent variables. However, the analysis revealed that the variable "defaultyes" was not statistically significant at the 0.1 alpha level. Consequently, a refined model was created without considering the "defaultyes" variable.
